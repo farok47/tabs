@@ -1,0 +1,32 @@
+.wrapper {
+  gap: 20px;
+  translate: 0% 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  display: flex;
+  gap: 40px;
+  font-size: 50px;
+  justify-content: center;
+  cursor: pointer;
+
+}
+
+.tab-item.active {
+  color: white ;
+  background-color: coral;
+  border-radius: 10px;
+}
+.content {
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+    justify-content: center;
+    color: white;
+    background-color: coral;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+  }
